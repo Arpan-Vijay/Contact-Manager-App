@@ -36,7 +36,7 @@ class AddContact extends React.Component {
             <label style={{fontSize: '18px', marginBottom: '1rem' }}>Number</label>
             <input
               type="number"
-              name="number"
+              name="tel"
               placeholder="Number"
               value={this.state.number}
               onChange={(e) => this.setState({ number: e.target.value })}
